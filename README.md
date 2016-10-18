@@ -1,2 +1,2 @@
-# gg-web
+# gg-manager
 from begin to gg
