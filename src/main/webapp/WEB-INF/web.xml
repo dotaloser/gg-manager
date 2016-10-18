@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	version="2.5">
 	
-  <display-name>dota-GG</display-name>
+  <display-name>gm</display-name>
 
 	
 	<!--configure the setting of springmvcDispatcherServlet and configure the mapping-->
@@ -14,7 +14,7 @@
 	    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 	    <init-param>
 	          <param-name>contextConfigLocation</param-name>
-	          <param-value>classpath:spring-mvc*.xml</param-value>
+	          <param-value>classpath:spring-mvc.xml</param-value>
 	      </init-param>
 	      <load-on-startup>1</load-on-startup>
 	</servlet>

@@ -12,16 +12,15 @@ import org.mortbay.jetty.webapp.WebAppContext;
  */
 public class Start {
 
-	public static final int PORT = 8088;
+	public static final int PORT = 8087;
 	public static final String CONTEXT = "/gm";
-	public static final String BASE_URL = "http://localhost:8088/gm";
+	public static final String BASE_URL = "http://localhost:8087/gm";
 
 	public static void main(String[] args) throws Exception {
 		
 		System.setProperty("java.awt.headless", "true");
 		Server server = buildDebugServer(PORT, CONTEXT);
 		server.start();
-		server.join();
 	}
 	
 	public static Server buildDebugServer(int port, String context) {
